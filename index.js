@@ -20,7 +20,7 @@
  
 function findMatching(drivers,str){
   return drivers.filter((element)=>{
-        return  element.toLowerCase() === str.toLowerCase()
+        return  element === str
       });
   }
  findMatching(drivers,"Bobby");
